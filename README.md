@@ -1,7 +1,7 @@
 # Finalyear-project
 
 #define USE_ARDUINO_INTERRUPTS true   // Set-up low-level interrupts for most acurate BPM math.                                                                                   
-#include <PulseSensorPlayground.h>   // Includes the PulseSensorPlayground Library.                                                                                             
+#include <PulseSensorPlayground.h>   // Includes the PulseSensorPlayground Library.                                                                                              
 #include <LiquidCrystal.h>                                                                                                                                              
 int led = 13;     // define the LED pin                                                                                                                                            
 int digitalPin = A5;      // KY-028 digital interface                                                                                                                            
